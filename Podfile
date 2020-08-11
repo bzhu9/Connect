@@ -6,5 +6,12 @@ target 'Connect' do
   use_frameworks!
 
   # Pods for Connect
+#Firebase
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+
+#Google Log In
+pod 'GoogleSignIn'
 
 end
